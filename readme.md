@@ -106,3 +106,12 @@ Blog system development based on laravel  5.1.*
 
 
 ####感谢支持！
+
+
+出现问题：
+
+>mcrypt_encrypt(): Key of size 12 not supported by this algorithm
+
+执行
+
+	php artisan key:generate
