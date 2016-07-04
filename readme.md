@@ -105,6 +105,4 @@ Blog system development based on laravel  5.1.*
 本系统使用redis缓存，目前只缓存文章，其它的皆不缓存
 
 
-喜欢这个项目，喜欢 laravel 欢迎加入 QQ 群与我们讨论：`365969825`
-
 ####感谢支持！
