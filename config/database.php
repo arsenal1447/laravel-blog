@@ -118,7 +118,7 @@ return [
 			'host'     => '127.0.0.1',
 			'port'     => 6379,
 			'database' => 0,
-			'password' => 'zxx123456',
+			'password' => 'zxx123456',//有密码的，配置密码
 		],
 
 	],
