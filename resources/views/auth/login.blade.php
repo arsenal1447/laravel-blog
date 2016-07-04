@@ -19,7 +19,7 @@
 					@endif
 
 					<form class="form-horizontal" role="form" method="POST" action="{{ url('/backend/auth/login') }}">
-						<input type="hidden" name="_token" value="{{ csrf_token() }}">
+						{{ csrf_field() }}<!-- 版本升级，需要替换处理 -->
 
 						<div class="form-group">
 							<label class="col-md-4 control-label">邮箱</label>
