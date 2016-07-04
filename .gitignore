@@ -1,0 +1,4 @@
+/bootstrap/compiled.php
+.env
+.idea
+/vendor/
