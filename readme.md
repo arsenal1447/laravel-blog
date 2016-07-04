@@ -115,3 +115,11 @@ Blog system development based on laravel  5.1.*
 执行
 
 	php artisan key:generate
+
+会在根目录的 **.env** 文件生成一段字符串
+
+	APP_KEY=9zgbEFJUkqJLgVP9XHFsWE2jhbWqdmHr
+
+复制到根目录下config/app.php  line 81
+	
+	'key' => env('APP_KEY', '9zgbEFJUkqJLgVP9XHFsWE2jhbWqdmHr'),
