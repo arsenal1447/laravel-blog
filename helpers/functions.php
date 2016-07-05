@@ -228,3 +228,14 @@ if (!function_exists('getArticleImg')) {
         return asset($imageUrl);
     }
 }
+
+
+if (!function_exists('pr')) {
+    function pr($str)
+    {
+        echo "<pre>";
+        print_R($str);
+        echo "</pre>";
+        die;
+    }
+}
