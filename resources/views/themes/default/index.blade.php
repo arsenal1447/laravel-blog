@@ -40,6 +40,7 @@
                             </p>
                             <p class="repo-list-meta">
                                 <span class="octicon octicon-calendar"></span>{{ $article->created_at->format('Y-m-d') }}
+                                <span class="octicon "></span>阅读6次
                             </p>
                         </li>
                     @endforeach
