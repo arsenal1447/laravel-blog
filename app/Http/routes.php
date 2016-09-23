@@ -21,25 +21,25 @@ Route::resource('about', 'AboutController');
 
 
 Route::controllers([
-    'backend/auth' => 'backend\AuthController',
-    'backend/password' => 'backend\PasswordController',
+    'backendzxx/auth' => 'backendzxx\AuthController',
+    'backendzxx/password' => 'backendzxx\PasswordController',
     'search'=>'SearchController',
 ]);
 
-Route::group(['prefix'=>'backend','middleware'=>'auth'],function(){
-    Route::any('/','backend\HomeController@index');
-    Route::resource('home', 'backend\HomeController');
-    Route::resource('cate','backend\CateController');
-    Route::resource('content','backend\ContentController');
-    Route::resource('article','backend\ArticleController');
-    Route::resource('tags','backend\TagsController');
-    Route::resource('user','backend\UserController');
-    Route::resource('comment','backend\CommentController');
-    Route::resource('nav','backend\NavigationController');
-    Route::resource('links','backend\LinksController');
+Route::group(['prefix'=>'backendzxx','middleware'=>'auth'],function(){
+    Route::any('/','backendzxx\HomeController@index');
+    Route::resource('home', 'backendzxx\HomeController');
+    Route::resource('cate','backendzxx\CateController');
+    Route::resource('content','backendzxx\ContentController');
+    Route::resource('article','backendzxx\ArticleController');
+    Route::resource('tags','backendzxx\TagsController');
+    Route::resource('user','backendzxx\UserController');
+    Route::resource('comment','backendzxx\CommentController');
+    Route::resource('nav','backendzxx\NavigationController');
+    Route::resource('links','backendzxx\LinksController');
     Route::controllers([
-        'system'=>'backend\SystemController',
-        'upload'=>'backend\UploadFileController'
+        'system'=>'backendzxx\SystemController',
+        'upload'=>'backendzxx\UploadFileController'
     ]);
 
 });

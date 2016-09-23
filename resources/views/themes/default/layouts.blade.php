@@ -26,7 +26,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ homeAsset('/images/ico/152.png') }}" type="image/png"/>
     <meta property="og:type" content="article">
     <meta property="og:locale" content="zh_CN" />
-
+    <meta name="baidu-site-verification" content="Vrnk4JS7dh" />
     <script src="{{ homeAsset('/vendor/jquery/dist/jquery.min.js') }}"></script>
 </head>
 <body class="home">
@@ -106,6 +106,9 @@
         $('.share-bar').share();
     });
 </script>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260424168'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1260424168' type='text/javascript'%3E%3C/script%3E"));</script>
+
 
 </body>
 </html>

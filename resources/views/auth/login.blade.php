@@ -18,7 +18,7 @@
 						</div>
 					@endif
 
-					<form class="form-horizontal" role="form" method="POST" action="{{ url('/backend/auth/login') }}">
+					<form class="form-horizontal" role="form" method="POST" action="{{ url('/backendzxx/auth/login') }}">
 						{{ csrf_field() }}<!-- 版本升级，需要替换处理 -->
 
 						<div class="form-group">
@@ -49,7 +49,7 @@
 							<div class="col-md-6 col-md-offset-4">
 								<button type="submit" class="btn btn-primary">登录</button>
 
-								<a class="btn btn-link" href="{{ url('/backend/password/email') }}">忘记密码?</a>
+								<a class="btn btn-link" href="{{ url('/backendzxx/password/email') }}">忘记密码?</a>
 							</div>
 						</div>
 					</form>

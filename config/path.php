@@ -8,7 +8,7 @@ define('CONTENT','content.');
 define('SYSTEM','setting.');
 define('USER','user.');
 return [
-    'backendBaseViewPath'=>'backend.',
+    'backendBaseViewPath'=>'backendzxx.',
     'modules'=>[
         'cate'=>CONTENT.'cate.',
         'article'=>CONTENT.'article.',

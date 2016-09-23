@@ -5,5 +5,5 @@
  */
 
 return [
-    'disqus_shortname' => 'arsenal1988'   // 修改为你的id
+    // 'disqus_shortname' => 'arsenal1988'   // 修改为你的id
 ];

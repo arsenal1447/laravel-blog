@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers\backend;
+<?php namespace App\Http\Controllers\backendzxx;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -67,7 +67,7 @@ class ArticleController extends Controller
                     // 清除缓存
                     Cache::tags(Article::REDIS_ARTICLE_PAGE_TAG)->flush();
                     Notification::success('恭喜又写一篇文章');
-                    return redirect()->route('backend.article.index');
+                    return redirect()->route('backendzxx.article.index');
                 } else {
                     self::destroy($article->id);
                 }
@@ -132,7 +132,7 @@ class ArticleController extends Controller
                 Cache::tags(Article::REDIS_ARTICLE_PAGE_TAG)->flush();
                 Cache::forget(Article::REDIS_ARTICLE_CACHE.$id);
 
-                return redirect()->route('backend.article.index');
+                return redirect()->route('backendzxx.article.index');
             }
 
         } catch (\Exception $e) {
@@ -171,7 +171,7 @@ class ArticleController extends Controller
             Notification::error('动态删除失败');
         }
 
-        return redirect()->route('backend.article.index');
+        return redirect()->route('backendzxx.article.index');
     }
 
 }
